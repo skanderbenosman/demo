@@ -12,7 +12,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	 @GetMapping("/test")
+	 @GetMapping("/")
 	    public String test() {
 	        return "skon";
 	    }
